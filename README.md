@@ -102,20 +102,11 @@ If validation fails or a user is not found, appropriate error messages are retur
 ## Setup and Running the Project
 1. Clone the repository.
 2. Update `application.properties` with your database configuration.
-3. Build the project using:
-   ```sh
-   mvn clean install
-   ```
-4. Run the application:
-   ```sh
-   mvn spring-boot:run
-   ```
+3. Build the project 
+4. Run the application
 
 ## Running Tests
-Execute the following command to run JUnit tests:
-```sh
-mvn test
-```
+run jUnit tests
 
 ## Future Improvements
 - Implement authentication and authorization
